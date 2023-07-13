@@ -1,0 +1,45 @@
+body{
+    background-color: palevioletred;
+    background-image: url(images/25.jpeg);
+    background: cover;
+}
+
+.d2{
+    margin:200px 200px;
+    background-color:blue;
+    padding: 15px;
+    text-align: center;
+
+}
+.d2 input{
+    height: 40px;
+    
+}
+ li{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(144, 165, 42);
+    margin-top: 5px;
+}
+.d2 button:hover{
+    background-color:palevioletred;   
+
+}
+.d2 button{
+    padding: 16px 50px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+ul li .checked{
+    color:blue;
+    text-decoration: line-through;
+}
+ul li span{
+    position:absolute;
+    right:0;
+    top:5px;
+    width:40px;
+    height:40px;
+    font:22px;
+    text-align: center;
+}
